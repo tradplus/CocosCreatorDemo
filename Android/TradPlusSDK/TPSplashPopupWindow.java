@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import com.tp.adx.sdk.util.ResourceUtils;
 import com.tradplus.ads.open.splash.TPSplash;
 import com.tradplus.cocos.R;
 

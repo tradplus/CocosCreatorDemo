@@ -4,7 +4,6 @@ import android.util.Log;
 
 import com.cocos.lib.CocosHelper;
 import com.cocos.lib.CocosJavascriptJavaBridge;
-import com.tp.adx.sdk.bean.TPNativeInfo;
 import com.tradplus.ads.base.bean.TPAdError;
 import com.tradplus.ads.base.bean.TPAdInfo;
 import com.tradplus.ads.base.bean.TPBaseAd;
