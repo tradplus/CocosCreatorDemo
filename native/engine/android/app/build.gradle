@@ -110,4 +110,20 @@ dependencies {
         implementation 'com.google.android.libraries.play.games:inputmapping:1.1.0-beta'
         implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
     }
+    implementation 'com.google.code.gson:gson:2.8.6'
+    // TradPlus
+    implementation 'com.tradplusad:tradplus:14.2.0.1'
+    //noinspection GradleCompatible
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0-alpha02'
+    // Admob
+    implementation 'com.google.android.gms:play-services-ads:24.3.0'
+    implementation 'com.tradplusad:tradplus-googlex:2.14.2.0.1'
+    // Meta
+    implementation 'com.facebook.android:audience-network-sdk:6.20.0'
+    implementation 'com.tradplusad:tradplus-facebook:1.14.2.0.1'
+    // Applovin
+    implementation 'com.applovin:applovin-sdk:13.3.0'
+    implementation 'com.tradplusad:tradplus-applovin:9.14.2.0.1'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.2.0'
 }
