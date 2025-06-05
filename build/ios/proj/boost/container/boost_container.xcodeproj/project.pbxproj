@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		05DE457DAF9449F48AD8B493 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7D12533FF014506A3F66C04 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4AD85944C902C15005C0936A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0BD136DB00404DDE9BB10DD1 /* PBXTargetDependency */,
+				57FC4EA02FB64A37AAF3D554 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B6795FB4DC174A32AB234437 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0AB263D6A4164E5983041F44 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9943CFB0482B997F13454174 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CC592B7025D493BA35417BE /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/pool_resource.cpp */ = {isa = PBXBuildFile; fileRef = B11ABD36E4B044C0A20564F5 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/pool_resource.cpp */; };
+		2535F0C10AD14B8894484A14 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp */ = {isa = PBXBuildFile; fileRef = C77837A0BBC8407AA1CA4927 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp */; };
+		70C3FA8CD60544BEBFD15B11 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/monotonic_buffer_resource.cpp */ = {isa = PBXBuildFile; fileRef = D7FF828DE44E498AADCCA782 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/monotonic_buffer_resource.cpp */; };
+		BD0B937C0B0640D2807B85CF /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/global_resource.cpp */ = {isa = PBXBuildFile; fileRef = B2B4D37490BA4E0AA2DA91DE /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/global_resource.cpp */; };
+		CFF49F43A0E94CF9829153B4 /* /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 574F770593734B0CAD9D4356 /* /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir/Info.plist */; };
+		D2807753F7B44DD0A69C67DA /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/alloc_lib.c */ = {isa = PBXBuildFile; fileRef = 1A3BCF842A9A443A9CC96B2C /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/alloc_lib.c */; };
+		E79F759236554FFFB9960010 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A89A2627344D48FD85B81635 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */; };
+		F42411DC2D304BC9A0A0FA75 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/unsynchronized_pool_resource.cpp */ = {isa = PBXBuildFile; fileRef = 310D03C392C44F968177ADC8 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/unsynchronized_pool_resource.cpp */; };
+		F87E4CA73E7B4B7DAD247A45 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/synchronized_pool_resource.cpp */ = {isa = PBXBuildFile; fileRef = 9C39E623E5124B0C90CF9542 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/synchronized_pool_resource.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C5546E77EEC4F7CA2DE9831 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6388EE1E31EE4016BBD93398 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9998783E21E04C38B57D2C26 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E0B714EB28E349EB84CE7AA1 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		733B224C55E54D349DAC0B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B0A8D488AA47F094F4A630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF22B1E4A19648ED85F7A83D;
+			remoteInfo = boost_container;
+		};
+		8607A17E9FBB43649410C560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B0A8D488AA47F094F4A630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6795FB4DC174A32AB234437;
+			remoteInfo = ZERO_CHECK;
+		};
+		866A9F89D824446BA1AF23DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B0A8D488AA47F094F4A630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6795FB4DC174A32AB234437;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3BCF842A9A443A9CC96B2C /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/alloc_lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alloc_lib.c; path = alloc_lib.c; sourceTree = SOURCE_ROOT; };
+		310D03C392C44F968177ADC8 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/unsynchronized_pool_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unsynchronized_pool_resource.cpp; path = unsynchronized_pool_resource.cpp; sourceTree = SOURCE_ROOT; };
+		574F770593734B0CAD9D4356 /* /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir/Info.plist; sourceTree = "<absolute>"; };
+		7E2D657060204ABD881A62BC /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C39E623E5124B0C90CF9542 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/synchronized_pool_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = synchronized_pool_resource.cpp; path = synchronized_pool_resource.cpp; sourceTree = SOURCE_ROOT; };
+		A89A2627344D48FD85B81635 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B11ABD36E4B044C0A20564F5 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/pool_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pool_resource.cpp; path = pool_resource.cpp; sourceTree = SOURCE_ROOT; };
+		B2B4D37490BA4E0AA2DA91DE /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/global_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = global_resource.cpp; path = global_resource.cpp; sourceTree = SOURCE_ROOT; };
+		C77837A0BBC8407AA1CA4927 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dlmalloc.cpp; path = dlmalloc.cpp; sourceTree = SOURCE_ROOT; };
+		D7FF828DE44E498AADCCA782 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/monotonic_buffer_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = monotonic_buffer_resource.cpp; path = monotonic_buffer_resource.cpp; sourceTree = SOURCE_ROOT; };
+		EB22CF19260B4A53B9500FA7 /* boost_container */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libboost_container.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA82BFE71AD445AAE541AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E92661D1204F11B583A273 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EA53725494054CAB8D55A70C /* CMake Rules */,
+				7E2D657060204ABD881A62BC /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1F55C446F69F4BD8806B9762 /* boost_container */ = {
+			isa = PBXGroup;
+			children = (
+				55E3F146746B4009A4D44297 /* Source Files */,
+				E3015A2F462546A8A637864C /* Resources */,
+				A89A2627344D48FD85B81635 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/CMakeLists.txt */,
+			);
+			name = boost_container;
+			sourceTree = "<group>";
+		};
+		52C1E74D996F423E899AF166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB22CF19260B4A53B9500FA7 /* boost_container */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E3F146746B4009A4D44297 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3BCF842A9A443A9CC96B2C /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/alloc_lib.c */,
+				C77837A0BBC8407AA1CA4927 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp */,
+				B2B4D37490BA4E0AA2DA91DE /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/global_resource.cpp */,
+				D7FF828DE44E498AADCCA782 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/monotonic_buffer_resource.cpp */,
+				B11ABD36E4B044C0A20564F5 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/pool_resource.cpp */,
+				9C39E623E5124B0C90CF9542 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/synchronized_pool_resource.cpp */,
+				310D03C392C44F968177ADC8 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/unsynchronized_pool_resource.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		71E115027A8D430B85E11958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB772BBE517A44FA9B24229C = {
+			isa = PBXGroup;
+			children = (
+				E7A4CB0AC25E4FD1BDD88F95 /* Utils */,
+				17E92661D1204F11B583A273 /* ALL_BUILD */,
+				52C1E74D996F423E899AF166 /* Products */,
+				71E115027A8D430B85E11958 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3015A2F462546A8A637864C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				574F770593734B0CAD9D4356 /* /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E7A4CB0AC25E4FD1BDD88F95 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F55C446F69F4BD8806B9762 /* boost_container */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EA53725494054CAB8D55A70C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF22B1E4A19648ED85F7A83D /* boost_container */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8422EDBC2B46FD81FDF251 /* Build configuration list for PBXNativeTarget "boost_container" */;
+			buildPhases = (
+				AAB4590FEC3C479EAFC4B5B3 /* Sources */,
+				3FA82BFE71AD445AAE541AC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A7E9213BD6479AA3B7BF1E /* PBXTargetDependency */,
+			);
+			name = boost_container;
+			productName = boost_container;
+			productReference = EB22CF19260B4A53B9500FA7 /* boost_container */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B0A8D488AA47F094F4A630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 769DC96394A94F2A9EA7266D /* Build configuration list for PBXProject "boost_container" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6388EE1E31EE4016BBD93398 /* Debug */,
+				0C5546E77EEC4F7CA2DE9831 /* Release */,
+				9998783E21E04C38B57D2C26 /* MinSizeRel */,
+				E0B714EB28E349EB84CE7AA1 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AB772BBE517A44FA9B24229C;
+			projectDirPath = "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container";
+			projectRoot = "";
+			targets = (
+				05DE457DAF9449F48AD8B493 /* ALL_BUILD */,
+				B6795FB4DC174A32AB234437 /* ZERO_CHECK */,
+				CF22B1E4A19648ED85F7A83D /* boost_container */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AD85944C902C15005C0936A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9943CFB0482B997F13454174 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  make -f /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  make -f /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  make -f /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container
+  make -f /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB4590FEC3C479EAFC4B5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2807753F7B44DD0A69C67DA /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/alloc_lib.c */,
+				2535F0C10AD14B8894484A14 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp */,
+				BD0B937C0B0640D2807B85CF /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/global_resource.cpp */,
+				70C3FA8CD60544BEBFD15B11 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/monotonic_buffer_resource.cpp */,
+				0CC592B7025D493BA35417BE /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/pool_resource.cpp */,
+				F87E4CA73E7B4B7DAD247A45 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/synchronized_pool_resource.cpp */,
+				F42411DC2D304BC9A0A0FA75 /* /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/unsynchronized_pool_resource.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BD136DB00404DDE9BB10DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6795FB4DC174A32AB234437 /* ZERO_CHECK */;
+			targetProxy = 8607A17E9FBB43649410C560 /* PBXContainerItemProxy */;
+		};
+		57FC4EA02FB64A37AAF3D554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF22B1E4A19648ED85F7A83D /* boost_container */;
+			targetProxy = 733B224C55E54D349DAC0B1F /* PBXContainerItemProxy */;
+		};
+		C9A7E9213BD6479AA3B7BF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6795FB4DC174A32AB234437 /* ZERO_CHECK */;
+			targetProxy = 866A9F89D824446BA1AF23DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0361C6FEF2C1434D90F6D54F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/archives/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,BOOST_UUID_FORCE_AUTO_LINK,"'CC_PLATFORM_WINDOWS=2'","'CC_PLATFORM_MACOS=4'","'CC_PLATFORM_IOS=1'","'CC_PLATFORM_MAC_OSX=4'","'CC_PLATFORM_MAC_IOS=1'","'CC_PLATFORM_ANDROID=3'","'CC_PLATFORM_OHOS=5'","'CC_PLATFORM_LINUX=6'","'CC_PLATFORM_QNX=7'","'CC_PLATFORM_NX=8'","'CC_PLATFORM_OPENHARMONY=10'","'CC_PLATFORM_EMSCRIPTEN=9'","'CC_PLATFORM=1'",BOOST_NO_CXX98_FUNCTION_BASE,"'CC_NETMODE_CLIENT=0'","'CC_NETMODE_LISTEN_SERVER=1'","'CC_NETMODE_HOST_SERVER=2'","'CC_NETMODE=0'","'BOOST_ALL_NO_LIB=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_container;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		42782F07CE054E2BA02782B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		488D7C0EF735415A849C4805 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/build;
+			};
+			name = MinSizeRel;
+		};
+		4A35ADBDA96742308E6E59FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		685888FC2EEE42F1A01A78EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/build;
+			};
+			name = Release;
+		};
+		70E33A6D08DC4B54A5D8701C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/archives/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,BOOST_UUID_FORCE_AUTO_LINK,"'CC_PLATFORM_WINDOWS=2'","'CC_PLATFORM_MACOS=4'","'CC_PLATFORM_IOS=1'","'CC_PLATFORM_MAC_OSX=4'","'CC_PLATFORM_MAC_IOS=1'","'CC_PLATFORM_ANDROID=3'","'CC_PLATFORM_OHOS=5'","'CC_PLATFORM_LINUX=6'","'CC_PLATFORM_QNX=7'","'CC_PLATFORM_NX=8'","'CC_PLATFORM_OPENHARMONY=10'","'CC_PLATFORM_EMSCRIPTEN=9'","'CC_PLATFORM=1'",BOOST_NO_CXX98_FUNCTION_BASE,"'CC_NETMODE_CLIENT=0'","'CC_NETMODE_LISTEN_SERVER=1'","'CC_NETMODE_HOST_SERVER=2'","'CC_NETMODE=0'","'BOOST_ALL_NO_LIB=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_container;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		74B966DA1E3C4AFFBE342E5C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/archives/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,BOOST_UUID_FORCE_AUTO_LINK,"'CC_PLATFORM_WINDOWS=2'","'CC_PLATFORM_MACOS=4'","'CC_PLATFORM_IOS=1'","'CC_PLATFORM_MAC_OSX=4'","'CC_PLATFORM_MAC_IOS=1'","'CC_PLATFORM_ANDROID=3'","'CC_PLATFORM_OHOS=5'","'CC_PLATFORM_LINUX=6'","'CC_PLATFORM_QNX=7'","'CC_PLATFORM_NX=8'","'CC_PLATFORM_OPENHARMONY=10'","'CC_PLATFORM_EMSCRIPTEN=9'","'CC_PLATFORM=1'",BOOST_NO_CXX98_FUNCTION_BASE,"'CC_NETMODE_CLIENT=0'","'CC_NETMODE_LISTEN_SERVER=1'","'CC_NETMODE_HOST_SERVER=2'","'CC_NETMODE=0'","'BOOST_ALL_NO_LIB=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_container;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F4ECE11AD0F4219A5B4C5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8BE8D892CC064DEE95D9707C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/archives/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_CONTAINER_NO_LIB,BOOST_CONTAINER_STATIC_LINK,BOOST_UUID_FORCE_AUTO_LINK,"'CC_PLATFORM_WINDOWS=2'","'CC_PLATFORM_MACOS=4'","'CC_PLATFORM_IOS=1'","'CC_PLATFORM_MAC_OSX=4'","'CC_PLATFORM_MAC_IOS=1'","'CC_PLATFORM_ANDROID=3'","'CC_PLATFORM_OHOS=5'","'CC_PLATFORM_LINUX=6'","'CC_PLATFORM_QNX=7'","'CC_PLATFORM_NX=8'","'CC_PLATFORM_OPENHARMONY=10'","'CC_PLATFORM_EMSCRIPTEN=9'","'CC_PLATFORM=1'",BOOST_NO_CXX98_FUNCTION_BASE,"'CC_NETMODE_CLIENT=0'","'CC_NETMODE_LISTEN_SERVER=1'","'CC_NETMODE_HOST_SERVER=2'","'CC_NETMODE=0'","'BOOST_ALL_NO_LIB=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = boost_container;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B411FDB1C4684907A2A89A77 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BC98D955226A45BA94A55A6A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BD6426D423FB4BF4B42F078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D340A467AA0B4F0081A41E31 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4CE6BBF7D084FFAB3318C29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ECB809F40FF044CB99F7E3E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F6932ECD7BDE47FDAA97FB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB263D6A4164E5983041F44 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6426D423FB4BF4B42F078F /* Debug */,
+				7F4ECE11AD0F4219A5B4C5A1 /* Release */,
+				BC98D955226A45BA94A55A6A /* MinSizeRel */,
+				E4CE6BBF7D084FFAB3318C29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2F8422EDBC2B46FD81FDF251 /* Build configuration list for PBXNativeTarget "boost_container" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE8D892CC064DEE95D9707C /* Debug */,
+				70E33A6D08DC4B54A5D8701C /* Release */,
+				0361C6FEF2C1434D90F6D54F /* MinSizeRel */,
+				74B966DA1E3C4AFFBE342E5C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		769DC96394A94F2A9EA7266D /* Build configuration list for PBXProject "boost_container" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6932ECD7BDE47FDAA97FB3E /* Debug */,
+				685888FC2EEE42F1A01A78EA /* Release */,
+				488D7C0EF735415A849C4805 /* MinSizeRel */,
+				ECB809F40FF044CB99F7E3E1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7D12533FF014506A3F66C04 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42782F07CE054E2BA02782B0 /* Debug */,
+				4A35ADBDA96742308E6E59FC /* Release */,
+				B411FDB1C4684907A2A89A77 /* MinSizeRel */,
+				D340A467AA0B4F0081A41E31 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B0A8D488AA47F094F4A630 /* Project object */;
+}

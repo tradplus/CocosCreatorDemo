@@ -1,0 +1,9 @@
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/builtin-res.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/cocos_engine.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/genbindings.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/CocosCreatorDemo-mobile.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/ALL_BUILD.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/CMakeFiles/ZERO_CHECK.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/boost_container.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/ALL_BUILD.dir
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/build/ios/proj/boost/container/CMakeFiles/ZERO_CHECK.dir

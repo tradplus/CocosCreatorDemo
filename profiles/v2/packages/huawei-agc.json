@@ -1,0 +1,18 @@
+{
+  "__version__": "1.0.0",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "huawei-agc",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "huawei-agc"
+    },
+    "options": {
+      "huawei-agc": {
+        "sdkhub": null,
+        "__version__": "1.0.0",
+        "serviceConfigPath": ""
+      }
+    }
+  }
+}

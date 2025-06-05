@@ -20,12 +20,12 @@ export class DemoSetting  {
         DemoSetting.didSetup = true;
         if (sys.os === "iOS")
         {
-            DemoSetting.AppID = "0E3CD076A202D14F4AB0D1D535F7190F";
-            DemoSetting.BannerPID = "363C3FBDD5BAFD550B45A52EAE3341C6";
-            DemoSetting.InterstitialPID = "E488AF1C8372A5269614FC46649890DC";
-            DemoSetting.NativePID = "79D2FF861FD9F33791E1612708C13DCB";
-            DemoSetting.RewardedPID = "1A9D6D870122E7056762EC05B21F797D";
-            DemoSetting.SplashPID = "70222702A02647C521924A5D4358C83B";
+            DemoSetting.AppID = "75AA158112F1EFA29169E26AC63AFF94";
+            DemoSetting.BannerPID = "6008C47DF1201CC875F2044E88FCD287";
+            DemoSetting.InterstitialPID = "55F5F4147CC829BD18DB8F7E5136872E";
+            DemoSetting.NativePID = "E8D198EBD7FDC4F8A725066C82D707E1";
+            DemoSetting.RewardedPID = "28DF1B5D3D9F6AF3EDB2FCBC21C20EA8";
+            DemoSetting.SplashPID = "E5BC6369FC7D96FD47612B279BC5AAE0";
             DemoSetting.NativeClassName =  "TPNativePasterView";
             DemoSetting.BannerClassName = "NativeBannerTemplate";
         }

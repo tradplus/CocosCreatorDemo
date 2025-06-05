@@ -221,11 +221,6 @@ export class Native extends Component {
             "custom_data":"native_customData"
         };
         var waitTime = 0;
-        var waitTimeStr = this.maxWaitTimeEditBox.string;
-        if(waitTimeStr.length > 0)
-        {
-            waitTime = parseFloat(waitTimeStr);
-        }
 
         var x = 0;
         var XStr = this.XEditBox.string;

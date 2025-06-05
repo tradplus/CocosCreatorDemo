@@ -1,0 +1,152 @@
+PODS:
+  - AdColony (4.9.0)
+  - Ads-CN/BUAdSDK (6.7.2.0)
+  - Ads-Global (7.1.0.8):
+    - Ads-Global/BUAdSDK (= 7.1.0.8)
+  - Ads-Global/BUAdSDK (7.1.0.8)
+  - AppLovinSDK (13.2.0)
+  - FBAudienceNetwork (6.17.1)
+  - GDTMobSDK (4.15.30)
+  - Google-Mobile-Ads-SDK (12.3.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
+  - InMobiSDK (10.8.2)
+  - IronSourceSDK (8.8.0.0)
+  - MintegralAdSDK (7.7.7):
+    - MintegralAdSDK/BannerAd (= 7.7.7)
+    - MintegralAdSDK/BidBannerAd (= 7.7.7)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.7.7)
+    - MintegralAdSDK/BidNativeAd (= 7.7.7)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.7)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.7.7)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.7.7)
+    - MintegralAdSDK/NativeAd (= 7.7.7)
+    - MintegralAdSDK/NewInterstitialAd (= 7.7.7)
+    - MintegralAdSDK/RewardVideoAd (= 7.7.7)
+  - MintegralAdSDK/All (7.7.7):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/NewInterstitialAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/BannerAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.7.7):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.7)
+  - MintegralAdSDK/NativeAdvancedAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (7.7.7):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - TPExchange (13.7.0)
+  - TPMediationHelper (1.2.0)
+  - TradPlusAdSDK (13.7.0):
+    - TradPlusAdSDK/TradPlusAds (= 13.7.0)
+  - TradPlusAdSDK/AdColonyAdapter (13.7.0)
+  - TradPlusAdSDK/AdMobAdapter (13.7.0)
+  - TradPlusAdSDK/AppLovinAdapter (13.7.0)
+  - TradPlusAdSDK/CSJAdapter (13.7.0)
+  - TradPlusAdSDK/FacebookAdapter (13.7.0)
+  - TradPlusAdSDK/GDTMobAdapter (13.7.0)
+  - TradPlusAdSDK/InMobiAdapter (13.7.0)
+  - TradPlusAdSDK/IronSourceAdapter (13.7.0)
+  - TradPlusAdSDK/MintegralAdapter (13.7.0)
+  - TradPlusAdSDK/PangleAdapter (13.7.0)
+  - TradPlusAdSDK/TradPlusAds (13.7.0):
+    - TPExchange (= 13.7.0)
+  - TradPlusAdSDK/UnityAdapter (13.7.0)
+  - TradPlusAdSDK/VungleAdapter (13.7.0)
+  - UnityAds (4.14.2)
+  - VungleAds (7.4.5)
+
+DEPENDENCIES:
+  - AdColony (= 4.9.0)
+  - Ads-CN/BUAdSDK (= 6.7.2.0)
+  - Ads-Global (= 7.1.0.8)
+  - AppLovinSDK (= 13.2.0)
+  - FBAudienceNetwork (= 6.17.1)
+  - GDTMobSDK (= 4.15.30)
+  - Google-Mobile-Ads-SDK (= 12.3.0)
+  - InMobiSDK (= 10.8.2)
+  - IronSourceSDK (= 8.8.0)
+  - MintegralAdSDK (= 7.7.7)
+  - MintegralAdSDK/All (= 7.7.7)
+  - TPMediationHelper (= 1.2.0)
+  - TradPlusAdSDK (= 13.7.0)
+  - TradPlusAdSDK/AdColonyAdapter (= 13.7.0)
+  - TradPlusAdSDK/AdMobAdapter (= 13.7.0)
+  - TradPlusAdSDK/AppLovinAdapter (= 13.7.0)
+  - TradPlusAdSDK/CSJAdapter (= 13.7.0)
+  - TradPlusAdSDK/FacebookAdapter (= 13.7.0)
+  - TradPlusAdSDK/GDTMobAdapter (= 13.7.0)
+  - TradPlusAdSDK/InMobiAdapter (= 13.7.0)
+  - TradPlusAdSDK/IronSourceAdapter (= 13.7.0)
+  - TradPlusAdSDK/MintegralAdapter (= 13.7.0)
+  - TradPlusAdSDK/PangleAdapter (= 13.7.0)
+  - TradPlusAdSDK/UnityAdapter (= 13.7.0)
+  - TradPlusAdSDK/VungleAdapter (= 13.7.0)
+  - UnityAds (= 4.14.2)
+  - VungleAds (= 7.4.5)
+
+SPEC REPOS:
+  trunk:
+    - AdColony
+    - Ads-CN
+    - Ads-Global
+    - AppLovinSDK
+    - FBAudienceNetwork
+    - GDTMobSDK
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - InMobiSDK
+    - IronSourceSDK
+    - MintegralAdSDK
+    - TPExchange
+    - TPMediationHelper
+    - TradPlusAdSDK
+    - UnityAds
+    - VungleAds
+
+SPEC CHECKSUMS:
+  AdColony: af8b7414f317641e0e1e9d23a7b739879e40e4b9
+  Ads-CN: e94eca81cbad095c43cbea40eb99bca27b95a55e
+  Ads-Global: 45b8be89540e1b2e2489f9de832b965f7a676e45
+  AppLovinSDK: 1eb88a82b4feea9f3696ce9cc1e3343c4997ee12
+  FBAudienceNetwork: eb3ffbf2b35df25e21e163657044ffef66616a40
+  GDTMobSDK: ee16d8b3c06825c09c0be89a443c1a909fdb86b3
+  Google-Mobile-Ads-SDK: 01b1b77e0bdba8b4027ae62e9bd52e5a95d930aa
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  InMobiSDK: bf6bc10caae18237d097755d19ff5441f146f9c7
+  IronSourceSDK: ff0b14630899756847f7608a75182f10f022e5ef
+  MintegralAdSDK: 190c6cd3d83b31b51833e3341857c58dc430da2e
+  TPExchange: 0817f14d1dd7fb3b9a73ec9d6caf040991150dc1
+  TPMediationHelper: ab6bef08a4fb30702619ac14e71545596e352adc
+  TradPlusAdSDK: 8d5b190d5fc9d563503ea872f15d47217cb26709
+  UnityAds: eabbbb3014326e45dc221a467fba16960e7b73e3
+  VungleAds: 1da221690dd1a8710d0b6a4c7aeac14cb12d31ab
+
+PODFILE CHECKSUM: 1d593bba7e39305520774061fd8b38c22b751741
+
+COCOAPODS: 1.16.2

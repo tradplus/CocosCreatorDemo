@@ -1,0 +1,19 @@
+dependencies: \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost-source/container/dlmalloc.cpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/dlmalloc.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/user.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/detail/select_compiler_config.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/compiler/clang.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/compiler/clang_version.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/detail/select_stdlib_config.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/stdlib/libcpp.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/detail/select_platform_config.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/platform/macos.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/detail/posix_features.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/config/detail/suffix.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/config_begin.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/workaround.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/auto_link.hpp \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/alloc_lib.h \
+  /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native/external/sources/boost/container/detail/config_end.hpp

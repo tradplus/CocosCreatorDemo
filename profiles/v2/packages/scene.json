@@ -35,5 +35,108 @@
   "rect-snap-configs": {
     "enableSnapping": true,
     "snapThreshold": 4
+  },
+  "camera-infos": {
+    "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
+      "position": {
+        "x": 640,
+        "y": 360.00000000000006,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -47.4030418250951,
+        "y": -160.99999999999994,
+        "width": 1280,
+        "height": 720
+      },
+      "scale": 1
+    },
+    "eff578bc-ff89-42b0-af7a-afdd1fe651d8": {
+      "position": {
+        "x": 337.27184872650196,
+        "y": 395.92620286179033,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -1235.4114125099754,
+        "y": -796.0498712165771,
+        "width": 1280,
+        "height": 720
+      },
+      "scale": 0.4370893102051866
+    },
+    "44a68d66-b79f-4210-952a-3f2d98fdda40": {
+      "position": {
+        "x": 640,
+        "y": -396.30000000000007,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -8,
+        "y": -456.30000000000007,
+        "width": 1296,
+        "height": 120
+      },
+      "scale": 1
+    }
+  },
+  "camera-uuids": [
+    "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+    "eff578bc-ff89-42b0-af7a-afdd1fe651d8",
+    "44a68d66-b79f-4210-952a-3f2d98fdda40"
+  ],
+  "camera": {
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "size": "__default_design__",
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6,
+    "iso": 0,
+    "aperture": 19,
+    "shutter": 7
   }
 }

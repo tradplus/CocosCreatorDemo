@@ -1,0 +1,3 @@
+# directories for searching native plugins
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/native
+/Users/xuejun/Documents/GitHub/CocosCreatorDemo/extensions
