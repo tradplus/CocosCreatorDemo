@@ -1,0 +1,11 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "startScene": "5e61bad6-fb90-4735-bfe1-29ea87c272ae"
+    }
+  }
+}
