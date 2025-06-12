@@ -9,85 +9,12 @@
     },
     "startScene": "5e61bad6-fb90-4735-bfe1-29ea87c272ae",
     "buildPath": "project://build",
-    "outputName": "ios",
+    "outputName": "android",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "ios"
+    "platform": "android"
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1749103662684": {
-        "type": "build",
-        "id": "1749103662684",
-        "progress": 1,
-        "state": "success",
-        "stage": "build",
-        "message": "2025-6-5 14:08:24 build success in 42 s!",
-        "options": {
-          "name": "CocosCreatorDemo",
-          "server": "",
-          "platform": "android",
-          "buildPath": "project://build",
-          "debug": false,
-          "md5Cache": false,
-          "skipCompressTexture": false,
-          "sourceMaps": false,
-          "polyfills": {
-            "asyncFunctions": false
-          },
-          "experimentalEraseModules": false,
-          "startSceneAssetBundle": false,
-          "bundleConfigs": [],
-          "useBuiltinServer": false,
-          "mainBundleIsRemote": false,
-          "mainBundleCompressionType": "merge_dep",
-          "useSplashScreen": true,
-          "bundleCommonChunk": false,
-          "packAutoAtlas": true,
-          "startScene": "5e61bad6-fb90-4735-bfe1-29ea87c272ae",
-          "outputName": "android",
-          "taskName": "android",
-          "scenes": [
-            {
-              "url": "db://assets/Scene/Banner.scene",
-              "uuid": "eff578bc-ff89-42b0-af7a-afdd1fe651d8"
-            },
-            {
-              "url": "db://assets/Scene/Interstitial.scene",
-              "uuid": "b7144da7-3182-4637-81c9-d92ff9549f59"
-            },
-            {
-              "url": "db://assets/Scene/main.scene",
-              "uuid": "5e61bad6-fb90-4735-bfe1-29ea87c272ae"
-            },
-            {
-              "url": "db://assets/Scene/Native.scene",
-              "uuid": "44a68d66-b79f-4210-952a-3f2d98fdda40"
-            },
-            {
-              "url": "db://assets/Scene/Other.scene",
-              "uuid": "c337c958-38b7-4c8e-89fa-ffe5daa35368"
-            },
-            {
-              "url": "db://assets/Scene/Rewarded.scene",
-              "uuid": "0888914d-bca0-4eee-96cc-843c7c9501c7"
-            },
-            {
-              "url": "db://assets/Scene/Setting.scene",
-              "uuid": "852699ee-53d2-4c68-8c45-b7539b6d4442"
-            },
-            {
-              "url": "db://assets/Scene/Splash.scene",
-              "uuid": "f5f2cb52-b54e-4140-a6ec-4da8a1746c0a"
-            }
-          ],
-          "packages": {},
-          "__version__": "1.3.7",
-          "buildMode": "normal",
-          "logDest": "project://temp/builder/log/android2025-6-5 14-07.log"
-        },
-        "time": "2025-6-5 14:07:42",
-        "dirty": false
-      },
       "1749110051591": {
         "type": "build",
         "id": "1749110051591",
@@ -159,6 +86,79 @@
           "logDest": "project://temp/builder/log/ios6-5-2025 15-54.log"
         },
         "time": "6-5-2025 16:31:00",
+        "dirty": false
+      },
+      "1749704396998": {
+        "type": "build",
+        "id": "1749704396998",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2025-6-12 13:00:26 build success in 29 s!",
+        "options": {
+          "name": "CocosCreatorDemo",
+          "server": "",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "5e61bad6-fb90-4735-bfe1-29ea87c272ae",
+          "outputName": "android",
+          "taskName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/Banner.scene",
+              "uuid": "eff578bc-ff89-42b0-af7a-afdd1fe651d8"
+            },
+            {
+              "url": "db://assets/Scene/Interstitial.scene",
+              "uuid": "b7144da7-3182-4637-81c9-d92ff9549f59"
+            },
+            {
+              "url": "db://assets/Scene/Native.scene",
+              "uuid": "44a68d66-b79f-4210-952a-3f2d98fdda40"
+            },
+            {
+              "url": "db://assets/Scene/Other.scene",
+              "uuid": "c337c958-38b7-4c8e-89fa-ffe5daa35368"
+            },
+            {
+              "url": "db://assets/Scene/Rewarded.scene",
+              "uuid": "0888914d-bca0-4eee-96cc-843c7c9501c7"
+            },
+            {
+              "url": "db://assets/Scene/Setting.scene",
+              "uuid": "852699ee-53d2-4c68-8c45-b7539b6d4442"
+            },
+            {
+              "url": "db://assets/Scene/Splash.scene",
+              "uuid": "f5f2cb52-b54e-4140-a6ec-4da8a1746c0a"
+            },
+            {
+              "url": "db://assets/Scene/main.scene",
+              "uuid": "5e61bad6-fb90-4735-bfe1-29ea87c272ae"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/android6-12-2025 12-59.log"
+        },
+        "time": "6-12-2025 12:59:57",
         "dirty": false
       }
     }

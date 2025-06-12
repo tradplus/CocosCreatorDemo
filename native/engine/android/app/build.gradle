@@ -34,8 +34,8 @@ android {
     }
 
     sourceSets.main {
-        java.srcDirs "../src", "src","../../../../../Android/TradPlusSDK"
-        res.srcDirs "../res", 'res', "${RES_PATH}/proj/res","../../../../../Android/TradPlusSDK/res"
+        java.srcDirs "../src", "src","../../../../Android/TradPlusSDK"
+        res.srcDirs "../res", 'res', "${RES_PATH}/proj/res","../../../../Android/TradPlusSDK/res"
         jniLibs.srcDirs "../libs", 'libs'
         manifest.srcFile "AndroidManifest.xml"
         assets.srcDir "${RES_PATH}/data"
